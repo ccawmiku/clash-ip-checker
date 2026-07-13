@@ -1,4 +1,4 @@
-# 🚀 Clash Node IP CHECKER
+# Clash 节点 IP 检测与风险标记工具
 
 [中文](README.md) | [English](README_EN.md) | [官网](https://tombcato.github.io/clash-ip-checker/) | [Docker部署](https://github.com/tombcato/clash-ip-checker/tree/docker)
 
@@ -9,12 +9,12 @@
 
 
 
-一个针对 **Clash** (及兼容核心) 的自动化节点工具。它会自动遍历你的代理节点，通过 [IPPure](https://ippure.com/)或者[Ping0](https://ping0.cc/) 检测 IP 纯净度和相关属性，并重命名节点，添加实用的指标（IP 纯净度、Bot 比例(或共享人数)、IP属性/IP来源状态）`【🟢🟡 住宅|原生】`。
+一个面向 **Clash/Mihomo 及兼容核心** 的节点检查工具。它会遍历代理节点，通过 [IPPure](https://ippure.com/) 或 [Ping0](https://ping0.cc/) 查询出口 IP 的纯净度、Bot 比例、共享人数与网络属性，并把结果写入节点名称，便于在客户端中快速筛选。
 效果展示：
 ![图片描述](assets/clash-node-checked.png)
 Web可视化配置检测：
 ![alt text](assets/clash-web-check.png)
-## 📅 更新日志 (Changelog)
+## 更新日志
 
 ### v2.0.0 (2026-01-11)
 - **Web UI**: 全新推出 Web 可视化界面，操作更便捷。
